@@ -31,6 +31,8 @@ char* determineOutcome(const char* player1, const char* player2)
         return "Player2";
     }
 
+    // Test 6
+    return "Invalid";
 
     return "Fail";
 }
