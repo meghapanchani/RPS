@@ -4,6 +4,14 @@
 char* determineOutcome(const char* player1, const char* player2) 
 {
     printf("Player1: %s, Player2: %s\n", player1, player2);
+
+
+    if (strcmp(player1, "Rock") == 0 && strcmp(player2, "Scissors") == 0) 
+    {
+        return "Player1";
+    }
+
+    
     return "Fail";
 }
 
