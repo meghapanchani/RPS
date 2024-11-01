@@ -26,6 +26,12 @@ char* determineOutcome(const char* player1, const char* player2)
         return "Player1";
     }
 
+    // Test 5
+    if (strcmp(player1, "Paper") == 0 && strcmp(player2, "Scissors") == 0) {
+        return "Player2";
+    }
+
+
     return "Fail";
 }
 
